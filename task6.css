@@ -101,9 +101,9 @@ header{
 .line2{
 	margin: 0.5rem 0;
 	height: 2rem;
+	line-height: 2rem;
 	font-size: 2rem;
 	padding-left: 3rem;
-
 	display: flex;
 	justify-content: space-between;
 }
@@ -149,6 +149,7 @@ header{
 	display: block;
 	padding-left: 3rem;
 	color: #a2a2a2;
+	white-space: nowrap;
 }
 
 footer{
