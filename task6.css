@@ -103,21 +103,26 @@ header{
 	height: 2rem;
 	font-size: 2rem;
 	padding-left: 3rem;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.text2-1{
 	overflow: hidden;
 	text-overflow:ellipsis;
 	white-space: nowrap;
 }
-
-.text2-1{
-	float: left;
-}
 .text2{
 	float: right;
+	white-space: nowrap;
+	display: flex;
 }
 
 .text2-2{
 	padding-right: 1rem;
 	color: #e63b0e;
+	white-space: nowrap;
 }
 
 .arrows{
